@@ -1,0 +1,129 @@
+.navbar-brand {
+  color: black;
+}
+
+.navbar-brand:hover {
+  color: rgb(173, 122, 139);
+}
+
+.btn:hover {
+  background-color: rgb(173, 122, 139);
+  border-color: rgb(173, 122, 139);
+}
+.text-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 20px;
+}
+
+#img-txt-first {
+  font-size: 30px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+.card-img-top {
+  width: 50px;
+  height: 50px;
+}
+
+.cardtab-body {
+  width: 25px;
+  height: 25px;
+}
+
+.cardtab-img {
+  width: 25px;
+  height: 15px;
+}
+
+.cardtab-text {
+  font-size: 0.6px;
+}
+
+.cardtab-img-small {
+  width: 2px;
+  height: 2px;
+}
+
+.card-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-img {
+  border-radius: 1px;
+}
+
+#blog-img1 {
+  width: 45rem;
+  height: 30rem;
+  position: absolute;
+}
+
+.blog-img2 {
+  width: 45rem;
+  height: 15rem;
+  position: absolute;
+  border-radius: 1rem;
+}
+
+.text-on-blog-img {
+  position: relative;
+  font-size: 50px;
+  width: 700px;
+  height: 500px;
+  padding-left: 20%;
+  color: white;
+  border-radius: 1rem;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.text-on-blog-img2 {
+  position: relative;
+  font-size: 30px;
+  width: 43.5rem;
+  height: 15rem;
+  margin-left: 0.7rem;
+  padding-left: 30%;
+  color: white;
+  border-radius: 1rem;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.text-on-blog-img3 {
+  position: relative;
+  font-size: 30px;
+  width: 43.5rem;
+  height: 14rem;
+  margin-top: 1rem;
+  margin-left: 0.7rem;
+  padding-left: 25%;
+  color: white;
+  border-radius: 1rem;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.double-quote {
+  color: #e1e8f8;
+  padding-top: 0.3rem;
+  padding-right: 1rem;
+}
+
+.footer {
+  background-color: #e1e8f8;
+  height: 6rem;
+  margin: 3rem 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 1rem;
+}
